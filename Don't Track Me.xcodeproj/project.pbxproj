@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5087D720135F52D100CCB30C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5087D71F135F52D100CCB30C /* Cocoa.framework */; };
+		5087D72A135F52D100CCB30C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5087D728135F52D100CCB30C /* InfoPlist.strings */; };
+		5087D72D135F52D100CCB30C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5087D72C135F52D100CCB30C /* main.m */; };
+		5087D730135F52D100CCB30C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5087D72E135F52D100CCB30C /* Credits.rtf */; };
+		5087D733135F52D100CCB30C /* Don_t_Track_MeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5087D732135F52D100CCB30C /* Don_t_Track_MeAppDelegate.m */; };
+		5087D736135F52D100CCB30C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5087D734135F52D100CCB30C /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5087D71B135F52D100CCB30C /* Don't Track Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Don't Track Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5087D71F135F52D100CCB30C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5087D722135F52D100CCB30C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5087D723135F52D100CCB30C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5087D724135F52D100CCB30C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5087D727135F52D100CCB30C /* Don't Track Me-Info.plist */ = {isa = PBXFileReference; path = "Don't Track Me-Info.plist"; sourceTree = "<group>"; };
+		5087D729135F52D100CCB30C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5087D72B135F52D100CCB30C /* Don't Track Me-Prefix.pch */ = {isa = PBXFileReference; path = "Don't Track Me-Prefix.pch"; sourceTree = "<group>"; };
+		5087D72C135F52D100CCB30C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5087D72F135F52D100CCB30C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		5087D731135F52D100CCB30C /* Don_t_Track_MeAppDelegate.h */ = {isa = PBXFileReference; path = Don_t_Track_MeAppDelegate.h; sourceTree = "<group>"; };
+		5087D732135F52D100CCB30C /* Don_t_Track_MeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Don_t_Track_MeAppDelegate.m; sourceTree = "<group>"; };
+		5087D735135F52D100CCB30C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5087D718135F52D100CCB30C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5087D720135F52D100CCB30C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5087D710135F52D000CCB30C = {
+			isa = PBXGroup;
+			children = (
+				5087D725135F52D100CCB30C /* Don't Track Me */,
+				5087D71E135F52D100CCB30C /* Frameworks */,
+				5087D71C135F52D100CCB30C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5087D71C135F52D100CCB30C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5087D71B135F52D100CCB30C /* Don't Track Me.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5087D71E135F52D100CCB30C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5087D71F135F52D100CCB30C /* Cocoa.framework */,
+				5087D721135F52D100CCB30C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5087D721135F52D100CCB30C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5087D722135F52D100CCB30C /* AppKit.framework */,
+				5087D723135F52D100CCB30C /* CoreData.framework */,
+				5087D724135F52D100CCB30C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5087D725135F52D100CCB30C /* Don't Track Me */ = {
+			isa = PBXGroup;
+			children = (
+				5087D731135F52D100CCB30C /* Don_t_Track_MeAppDelegate.h */,
+				5087D732135F52D100CCB30C /* Don_t_Track_MeAppDelegate.m */,
+				5087D734135F52D100CCB30C /* MainMenu.xib */,
+				5087D726135F52D100CCB30C /* Supporting Files */,
+			);
+			path = "Don't Track Me";
+			sourceTree = "<group>";
+		};
+		5087D726135F52D100CCB30C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5087D727135F52D100CCB30C /* Don't Track Me-Info.plist */,
+				5087D728135F52D100CCB30C /* InfoPlist.strings */,
+				5087D72B135F52D100CCB30C /* Don't Track Me-Prefix.pch */,
+				5087D72C135F52D100CCB30C /* main.m */,
+				5087D72E135F52D100CCB30C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5087D71A135F52D100CCB30C /* Don't Track Me */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5087D739135F52D100CCB30C /* Build configuration list for PBXNativeTarget "Don't Track Me" */;
+			buildPhases = (
+				5087D717135F52D100CCB30C /* Sources */,
+				5087D718135F52D100CCB30C /* Frameworks */,
+				5087D719135F52D100CCB30C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Don't Track Me";
+			productName = "Don't Track Me";
+			productReference = 5087D71B135F52D100CCB30C /* Don't Track Me.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5087D712135F52D000CCB30C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = AndyRothTech;
+			};
+			buildConfigurationList = 5087D715135F52D000CCB30C /* Build configuration list for PBXProject "Don't Track Me" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5087D710135F52D000CCB30C;
+			productRefGroup = 5087D71C135F52D100CCB30C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5087D71A135F52D100CCB30C /* Don't Track Me */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5087D719135F52D100CCB30C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5087D72A135F52D100CCB30C /* InfoPlist.strings in Resources */,
+				5087D730135F52D100CCB30C /* Credits.rtf in Resources */,
+				5087D736135F52D100CCB30C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5087D717135F52D100CCB30C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5087D72D135F52D100CCB30C /* main.m in Sources */,
+				5087D733135F52D100CCB30C /* Don_t_Track_MeAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5087D728135F52D100CCB30C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5087D729135F52D100CCB30C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5087D72E135F52D100CCB30C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5087D72F135F52D100CCB30C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		5087D734135F52D100CCB30C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5087D735135F52D100CCB30C /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5087D737135F52D100CCB30C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5087D738135F52D100CCB30C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5087D73A135F52D100CCB30C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Don't Track Me/Don't Track Me-Prefix.pch";
+				INFOPLIST_FILE = "Don't Track Me/Don't Track Me-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5087D73B135F52D100CCB30C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Don't Track Me/Don't Track Me-Prefix.pch";
+				INFOPLIST_FILE = "Don't Track Me/Don't Track Me-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5087D715135F52D000CCB30C /* Build configuration list for PBXProject "Don't Track Me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5087D737135F52D100CCB30C /* Debug */,
+				5087D738135F52D100CCB30C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5087D739135F52D100CCB30C /* Build configuration list for PBXNativeTarget "Don't Track Me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5087D73A135F52D100CCB30C /* Debug */,
+				5087D73B135F52D100CCB30C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5087D712135F52D000CCB30C /* Project object */;
+}
