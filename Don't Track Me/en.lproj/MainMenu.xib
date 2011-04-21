@@ -150,7 +150,7 @@
 			<object class="NSWindowTemplate" id="762740572">
 				<int key="NSWindowStyleMask">263</int>
 				<int key="NSWindowBacking">2</int>
-				<string key="NSWindowRect">{{196, 240}, {238, 97}}</string>
+				<string key="NSWindowRect">{{196, 240}, {238, 95}}</string>
 				<int key="NSWTFlags">611844096</int>
 				<string key="NSWindowTitle">Don't Track Me</string>
 				<string key="NSWindowClass">NSWindow</string>
@@ -163,7 +163,7 @@
 						<object class="NSButton" id="338224701">
 							<reference key="NSNextResponder" ref="880696549"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{27, 55}, {188, 44}}</string>
+							<string key="NSFrame">{{27, 53}, {188, 44}}</string>
 							<reference key="NSSuperview" ref="880696549"/>
 							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="642409949"/>
@@ -189,7 +189,7 @@
 						<object class="NSTextField" id="642409949">
 							<reference key="NSNextResponder" ref="880696549"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{26, 34}, {190, 17}}</string>
+							<string key="NSFrame">{{26, 32}, {190, 17}}</string>
 							<reference key="NSSuperview" ref="880696549"/>
 							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="444653690"/>
@@ -228,14 +228,15 @@
 							<reference key="NSNextResponder" ref="880696549"/>
 							<int key="NSvFlags">1292</int>
 							<object class="NSPSMatrix" key="NSDrawMatrix"/>
-							<string key="NSFrame">{{28, 14}, {186, 12}}</string>
+							<string key="NSFrame">{{28, 12}, {186, 12}}</string>
 							<reference key="NSSuperview" ref="880696549"/>
 							<reference key="NSWindow"/>
+							<reference key="NSNextKeyView"/>
 							<int key="NSpiFlags">24842</int>
 							<double key="NSMaxValue">100</double>
 						</object>
 					</object>
-					<string key="NSFrame">{{7, 11}, {238, 97}}</string>
+					<string key="NSFrame">{{7, 11}, {238, 95}}</string>
 					<reference key="NSSuperview"/>
 					<reference key="NSWindow"/>
 					<reference key="NSNextKeyView" ref="338224701"/>

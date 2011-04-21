@@ -25,22 +25,16 @@
     
     //Search for consolidated databases. Set the label to the amount of databases found.
     [self performSelectorInBackground:@selector(searchForDBs) withObject:nil];
-    if (filesFound == 1) {
-        [statusLBL setStringValue:@"1 location file found."];
-    }
-    else {
-        [statusLBL setStringValue:[NSString stringWithFormat:@"%d location files found.", filesFound]];
-    }
 }
 - (IBAction)scramble:(id)sender {
     //Animate progress indicator.
     [progIndi startAnimation:nil];
     //Resize window.
-    NSInteger sizeDifference = 25;
-    [self performSelectorInBackground:@selector(doScramble) withObject:nil];
-    [window setFrame:NSMakeRect([window frame].origin.x, [window frame].origin.y - sizeDifference, [window frame].size.width, [window frame].size.height + sizeDifference) display:YES animate:YES];
+    [window setFrame:NSMakeRect([window frame].origin.x, [window frame].origin.y, 238, 110) display:YES animate:YES];
     //Set text.
     [statusLBL setStringValue:@"Scrambling data..."];
+    
+    [self performSelectorInBackground:@selector(doScramble) withObject:nil];
 }
 - (void)doScramble {
     NSAutoreleasePool *pool = [NSAutoreleasePool new];
@@ -59,8 +53,7 @@
     //Stop progress indicator animation.
     [progIndi stopAnimation:nil];
     //Resize window.
-    NSInteger sizeDifference = -25;
-    [window setFrame:NSMakeRect([window frame].origin.x, [window frame].origin.y - sizeDifference, [window frame].size.width, [window frame].size.height + sizeDifference) display:YES animate:YES];
+    [window setFrame:NSMakeRect([window frame].origin.x, [window frame].origin.y, 238, 95) display:YES animate:YES];
     //Set text.
     [statusLBL setStringValue:@"Done."];
     [pool release];
@@ -140,11 +133,24 @@
         NSLog(@"Error!");
     }
     
-    [scrambleBTN setEnabled:YES];
-    filesFound = [[NSString stringWithFormat:@"%d", [filePaths count]] intValue];
+    [self manualSetFilesFound:[[NSString stringWithFormat:@"%d", [filePaths count]] intValue]];
     [pool release];
 }
--(BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication*)theApplication {
+- (void)manualSetFilesFound:(int)i {
+    if (i == 1) {
+        [scrambleBTN setEnabled:YES];
+        [statusLBL setStringValue:@"1 location file found."];
+    }
+    else if (i == 0) {
+        [scrambleBTN setEnabled:NO];
+        [statusLBL setStringValue:@"No location files found."];
+    }
+    else {
+        [scrambleBTN setEnabled:YES];
+        [statusLBL setStringValue:[NSString stringWithFormat:@"%d location files found.", i]];
+    }
+}
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication*)theApplication {
     return YES;
 }
 @end

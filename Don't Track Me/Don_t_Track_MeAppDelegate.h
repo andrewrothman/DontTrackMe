@@ -16,11 +16,11 @@
     IBOutlet NSTextField *statusLBL;
     IBOutlet NSProgressIndicator *progIndi;
     NSMutableArray *filePaths;
-    int filesFound;
 }
 
 @property (assign) IBOutlet NSWindow *window;
 
+- (void)manualSetFilesFound:(int)i;
 - (void)searchForDBs;
 - (IBAction)scramble:(id)sender;
 
