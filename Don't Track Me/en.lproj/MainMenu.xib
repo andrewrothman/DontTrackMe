@@ -148,7 +148,7 @@
 				<string key="NSClassName">NSFontManager</string>
 			</object>
 			<object class="NSWindowTemplate" id="762740572">
-				<int key="NSWindowStyleMask">259</int>
+				<int key="NSWindowStyleMask">263</int>
 				<int key="NSWindowBacking">2</int>
 				<string key="NSWindowRect">{{196, 240}, {238, 97}}</string>
 				<int key="NSWTFlags">611844096</int>
@@ -231,7 +231,6 @@
 							<string key="NSFrame">{{28, 14}, {186, 12}}</string>
 							<reference key="NSSuperview" ref="880696549"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView"/>
 							<int key="NSpiFlags">24842</int>
 							<double key="NSMaxValue">100</double>
 						</object>

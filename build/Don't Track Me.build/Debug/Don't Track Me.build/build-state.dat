@@ -4,17 +4,17 @@ r1
 cCheck dependencies
 cProcessInfoPlistFile "/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/build/Debug/Don't Track Me.app/Contents/Info.plist" "Don't Track Me/Don't Track Me-Info.plist"
 cProcessPCH "/var/folders/c0/c0if7cwSEXqO4db86cq10E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Don't Track Me-Prefix-gbebadvpamrxxlfosgutyzgbbvfg/Don't Track Me-Prefix.pch.pth" "Don't Track Me/Don't Track Me-Prefix.pch" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "build/Don't Track Me.build/Debug/Don't Track Me.build/Objects-normal/x86_64/FMResultSet.o" "/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/Don't Track Me/fmdb/FMResultSet.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/Don't Track Me.build/Debug/Don't Track Me.build/Objects-normal/x86_64/main.o" "/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/Don't Track Me/main.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "build/Don't Track Me.build/Debug/Don't Track Me.build/Objects-normal/x86_64/FMDatabaseAdditions.o" "/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/Don't Track Me/fmdb/FMDatabaseAdditions.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "build/Don't Track Me.build/Debug/Don't Track Me.build/Objects-normal/x86_64/Don_t_Track_MeAppDelegate.o" "/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/Don't Track Me/Don_t_Track_MeAppDelegate.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "build/Don't Track Me.build/Debug/Don't Track Me.build/Objects-normal/x86_64/main.o" "/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/Don't Track Me/main.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "build/Don't Track Me.build/Debug/Don't Track Me.build/Objects-normal/x86_64/DataHelper.o" "/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/Don't Track Me/DataHelper.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/Don't Track Me.build/Debug/Don't Track Me.build/Objects-normal/x86_64/FMResultSet.o" "/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/Don't Track Me/fmdb/FMResultSet.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "build/Don't Track Me.build/Debug/Don't Track Me.build/Objects-normal/x86_64/FMDatabase.o" "/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/Don't Track Me/fmdb/FMDatabase.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLd "/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/build/Debug/Don't Track Me.app/Contents/MacOS/Don't Track Me" normal x86_64
 cCopyStringsFile "/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/build/Debug/Don't Track Me.app/Contents/Resources/en.lproj/InfoPlist.strings" "Don't Track Me/en.lproj/InfoPlist.strings"
-cCpResource "Don't Track Me/en.lproj/Credits.rtf" "build/Debug/Don't Track Me.app/Contents/Resources/en.lproj/Credits.rtf"
 cCompileXIB "/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/Don't Track Me/en.lproj/MainMenu.xib"
 cCpResource "Don't Track Me/Icon.icns" "build/Debug/Don't Track Me.app/Contents/Resources/Icon.icns"
+cCpResource "Don't Track Me/en.lproj/Credits.rtf" "build/Debug/Don't Track Me.app/Contents/Resources/en.lproj/Credits.rtf"
 cTouch "/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/build/Debug/Don't Track Me.app"
 
 N/Developer/SDKs/MacOSX10.6.sdk
@@ -110,9 +110,9 @@ t1303345214
 s160174
 
 N/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/Don't Track Me/en.lproj/Credits.rtf
-c000000004DAF75070000000000000285
-t1303344391
-s645
+c000000004DAF81B8000000000000028A
+t1303347640
+s650
 
 N/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/Don't Track Me/en.lproj/InfoPlist.strings
 c000000004DAF1B51000000000000002D
@@ -174,19 +174,19 @@ s249
 i<Cocoa/Cocoa.h>
 
 N/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/build/Debug/Don't Track Me.app
-t1303344393
+t1303350905
 s102
 
 N/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/build/Debug/Don't Track Me.app/Contents/Info.plist
-t1303344334
-s1329
+t1303350905
+s1386
 
 N/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/build/Debug/Don't Track Me.app/Contents/MacOS/Don't Track Me
 t1303343754
 s105292
 
 N/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/build/Debug/Don't Track Me.app/Contents/PkgInfo
-t1303344334
+t1303350905
 s8
 
 N/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/build/Debug/Don't Track Me.app/Contents/Resources/CreateCellDatabase
@@ -206,12 +206,12 @@ t1303327640
 s187
 
 N/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/build/Debug/Don't Track Me.app/Contents/Resources/Icon.icns
-t2
-s0
+t1303345399
+s160174
 
 N/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/build/Debug/Don't Track Me.app/Contents/Resources/en.lproj/Credits.rtf
-t1303344393
-s645
+t1303350905
+s650
 
 N/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/build/Debug/Don't Track Me.app/Contents/Resources/en.lproj/InfoPlist.strings
 t1303321794
@@ -255,9 +255,9 @@ t1303321793
 s10945516
 
 NDon't Track Me/Don't Track Me-Info.plist
-c000000004DAF78F200000000000003D9
-t1303345394
-s985
+c000000004DAF8E9F00000000000003D8
+t1303350943
+s984
 
 CBuild AST from "/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/Don't Track Me/DataHelper.m"
 r0
@@ -279,7 +279,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies1d20b873b05fb341^7d3e6277b05fb341^---0#1#0#--18"Check dependencies
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesb8781420c65fb341^dcd83420c65fb341^---0#1#0#--18"Check dependencies
 
 CCompileC "build/Don't Track Me.build/Debug/Don't Track Me.build/Objects-normal/x86_64/DataHelper.o" "/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/Don't Track Me/DataHelper.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s325036142.940890
@@ -458,13 +458,13 @@ xbuild/Debug/Don't Track Me.app/Contents/Resources/Icon.icns
 lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Debug/Don't Track Me.app/Contents/Resources/Icon.icns249b5f77b05fb341^d4997f77b05fb341^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/andyroth/Desktop/iOS/Mac/Don't%20Track%20Me/build/Debug/Don't%20Track%20Me.app/Contents/Resources/Icon.icns000020442305f041^428"CpResource "Don't Track Me/Icon.icns" "build/Debug/Don't Track Me.app/Contents/Resources/Icon.icns"    cd "/Users/andyroth/Desktop/iOS/Mac/Don't Track Me"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/Don't Track Me/Icon.icns" "/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/build/Debug/Don't Track Me.app/Contents/Resources"
 
 CCpResource "Don't Track Me/en.lproj/Credits.rtf" "build/Debug/Don't Track Me.app/Contents/Resources/en.lproj/Credits.rtf"
-s325037193.141496
-e325037193.145383
+s325043705.081245
+e325043705.225567
 r1
 xCpResource
 xDon't Track Me/en.lproj/Credits.rtf
 xbuild/Debug/Don't Track Me.app/Contents/Resources/en.lproj/Credits.rtf
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Copy build/Debug/Don't Track Me.app/Contents/Resources/en.lproj/Credits.rtf64592489ac5fb341^13d53b89ac5fb341^---0#0#0#-19%DVTDocumentLocation2@141"file://localhost/Users/andyroth/Desktop/iOS/Mac/Don't%20Track%20Me/build/Debug/Don't%20Track%20Me.app/Contents/Resources/en.lproj/Credits.rtf0000000000000000^470"CpResource "Don't Track Me/en.lproj/Credits.rtf" "build/Debug/Don't Track Me.app/Contents/Resources/en.lproj/Credits.rtf"    cd "/Users/andyroth/Desktop/iOS/Mac/Don't Track Me"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/Don't Track Me/en.lproj/Credits.rtf" "/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/build/Debug/Don't Track Me.app/Contents/Resources/en.lproj"
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Copy build/Debug/Don't Track Me.app/Contents/Resources/en.lproj/Credits.rtf190115f9c55fb341^268faff9c55fb341^---0#0#0#-19%DVTDocumentLocation2@141"file://localhost/Users/andyroth/Desktop/iOS/Mac/Don't%20Track%20Me/build/Debug/Don't%20Track%20Me.app/Contents/Resources/en.lproj/Credits.rtf0000000000000000^470"CpResource "Don't Track Me/en.lproj/Credits.rtf" "build/Debug/Don't Track Me.app/Contents/Resources/en.lproj/Credits.rtf"    cd "/Users/andyroth/Desktop/iOS/Mac/Don't Track Me"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/Don't Track Me/en.lproj/Credits.rtf" "/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/build/Debug/Don't Track Me.app/Contents/Resources/en.lproj"
 
 CLd "/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/build/Debug/Don't Track Me.app/Contents/MacOS/Don't Track Me" normal x86_64
 s325036554.693114
@@ -477,13 +477,13 @@ xx86_64
 lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Link /Users/andyroth/Desktop/iOS/Mac/Don't Track Me/build/Debug/Don't Track Me.app/Contents/MacOS/Don't Track Meb79ab10aaa5fb341^e6aed50aaa5fb341^---0#0#0#--717"Ld "build/Debug/Don't Track Me.app/Contents/MacOS/Don't Track Me" normal x86_64    cd "/Users/andyroth/Desktop/iOS/Mac/Don't Track Me"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/clang -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/build/Debug" "-F/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/build/Debug" -filelist "/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/build/Don't Track Me.build/Debug/Don't Track Me.build/Objects-normal/x86_64/Don't Track Me.LinkFileList" -mmacosx-version-min=10.6 -lsqlite3.0 -framework Cocoa -o "/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/build/Debug/Don't Track Me.app/Contents/MacOS/Don't Track Me"
 
 CProcessInfoPlistFile "/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/build/Debug/Don't Track Me.app/Contents/Info.plist" "Don't Track Me/Don't Track Me-Info.plist"
-s325038199.364792
-e325038199.369078
+s325043744.203015
+e325043744.208843
 r1
 xProcessInfoPlistFile
 x/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/build/Debug/Don't Track Me.app/Contents/Info.plist
 xDon't Track Me/Don't Track Me-Info.plist
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Process Don't Track Me/Don't Track Me-Info.plist6d715d77b05fb341^be4a6277b05fb341^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/andyroth/Desktop/iOS/Mac/Don't%20Track%20Me/Don't%20Track%20Me/Don't%20Track%20Me-Info.plist0000000000000000^495"ProcessInfoPlistFile "build/Debug/Don't Track Me.app/Contents/Info.plist" "Don't Track Me/Don't Track Me-Info.plist"    cd "/Users/andyroth/Desktop/iOS/Mac/Don't Track Me"    builtin-infoPlistUtility "Don't Track Me/Don't Track Me-Info.plist" -genpkginfo "/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/build/Debug/Don't Track Me.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/build/Debug/Don't Track Me.app/Contents/Info.plist"
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Process Don't Track Me/Don't Track Me-Info.plistf9143420c65fb341^95823620c65fb341^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/andyroth/Desktop/iOS/Mac/Don't%20Track%20Me/Don't%20Track%20Me/Don't%20Track%20Me-Info.plist0000000000000000^495"ProcessInfoPlistFile "build/Debug/Don't Track Me.app/Contents/Info.plist" "Don't Track Me/Don't Track Me-Info.plist"    cd "/Users/andyroth/Desktop/iOS/Mac/Don't Track Me"    builtin-infoPlistUtility "Don't Track Me/Don't Track Me-Info.plist" -genpkginfo "/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/build/Debug/Don't Track Me.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/build/Debug/Don't Track Me.app/Contents/Info.plist"
 
 CProcessPCH "/Users/andyroth/Library/Developer/Xcode/DerivedData/Don't_Track_Me-dycklnorsfnlujeucdaalrzybozs/Index/PrecompiledHeaders/Don't Track Me-Prefix-czperkuzrufsaleenlmqcxyngayz_ast/Don't Track Me-Prefix.pch.pth" "Don't Track Me/Don't Track Me-Prefix.pch" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
 r0
@@ -502,10 +502,10 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Precompile Don't Track Me/Don't Track Me-Prefix.pchf81c4c3f545fb341^66dd5341545fb341^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/andyroth/Desktop/iOS/Mac/Don't%20Track%20Me/Don't%20Track%20Me/Don't%20Track%20Me-Prefix.pch0000000000000000^2071"ProcessPCH "/var/folders/c0/c0if7cwSEXqO4db86cq10E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Don't Track Me-Prefix-gbebadvpamrxxlfosgutyzgbbvfg/Don't Track Me-Prefix.pch.pth" "Don't Track Me/Don't Track Me-Prefix.pch" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/andyroth/Desktop/iOS/Mac/Don't Track Me"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/build/Don't Track Me.build/Debug/Don't Track Me.build/Don't Track Me-generated-files.hmap" "-I/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/build/Don't Track Me.build/Debug/Don't Track Me.build/Don't Track Me-own-target-headers.hmap" "-I/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/build/Don't Track Me.build/Debug/Don't Track Me.build/Don't Track Me-all-target-headers.hmap" -iquote "/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/build/Don't Track Me.build/Debug/Don't Track Me.build/Don't Track Me-project-headers.hmap" "-I/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/build/Debug/include" "-I/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/build/Don't Track Me.build/Debug/Don't Track Me.build/DerivedSources/x86_64" "-I/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/build/Don't Track Me.build/Debug/Don't Track Me.build/DerivedSources" "-F/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/build/Debug" -c "/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/Don't Track Me/Don't Track Me-Prefix.pch" -o "/var/folders/c0/c0if7cwSEXqO4db86cq10E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Don't Track Me-Prefix-gbebadvpamrxxlfosgutyzgbbvfg/Don't Track Me-Prefix.pch.pth"
 
 CTouch "/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/build/Debug/Don't Track Me.app"
-s325038199.499288
-e325038199.708566
+s325043744.287733
+e325043744.297387
 r1
 xTouch
 x/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/build/Debug/Don't Track Me.app
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Touch /Users/andyroth/Desktop/iOS/Mac/Don't Track Me/build/Debug/Don't Track Me.appf7e67f77b05fb341^3a917478b05fb341^---0#0#0#--197"Touch "build/Debug/Don't Track Me.app"    cd "/Users/andyroth/Desktop/iOS/Mac/Don't Track Me"    /usr/bin/touch -c "/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/build/Debug/Don't Track Me.app"
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Touch /Users/andyroth/Desktop/iOS/Mac/Don't Track Me/build/Debug/Don't Track Me.app6abf4920c65fb341^f1455320c65fb341^---0#0#0#--197"Touch "build/Debug/Don't Track Me.app"    cd "/Users/andyroth/Desktop/iOS/Mac/Don't Track Me"    /usr/bin/touch -c "/Users/andyroth/Desktop/iOS/Mac/Don't Track Me/build/Debug/Don't Track Me.app"
 
