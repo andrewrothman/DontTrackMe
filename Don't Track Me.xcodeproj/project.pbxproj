@@ -13,6 +13,12 @@
 		5087D730135F52D100CCB30C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5087D72E135F52D100CCB30C /* Credits.rtf */; };
 		5087D733135F52D100CCB30C /* Don_t_Track_MeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5087D732135F52D100CCB30C /* Don_t_Track_MeAppDelegate.m */; };
 		5087D736135F52D100CCB30C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5087D734135F52D100CCB30C /* MainMenu.xib */; };
+		5087D74E135F585900CCB30C /* DataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5087D74D135F585900CCB30C /* DataHelper.m */; };
+		5087D756135F5F7600CCB30C /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5087D751135F5F7600CCB30C /* FMDatabase.m */; };
+		5087D757135F5F7600CCB30C /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5087D753135F5F7600CCB30C /* FMDatabaseAdditions.m */; };
+		5087D758135F5F7600CCB30C /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5087D755135F5F7600CCB30C /* FMResultSet.m */; };
+		5087D75A135F617C00CCB30C /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5087D759135F617C00CCB30C /* libsqlite3.0.dylib */; };
+		5087D774135FAFCE00CCB30C /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 5087D773135FAFCE00CCB30C /* Icon.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +27,24 @@
 		5087D722135F52D100CCB30C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		5087D723135F52D100CCB30C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		5087D724135F52D100CCB30C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		5087D727135F52D100CCB30C /* Don't Track Me-Info.plist */ = {isa = PBXFileReference; path = "Don't Track Me-Info.plist"; sourceTree = "<group>"; };
+		5087D727135F52D100CCB30C /* Don't Track Me-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Don't Track Me-Info.plist"; sourceTree = "<group>"; };
 		5087D729135F52D100CCB30C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5087D72B135F52D100CCB30C /* Don't Track Me-Prefix.pch */ = {isa = PBXFileReference; path = "Don't Track Me-Prefix.pch"; sourceTree = "<group>"; };
+		5087D72B135F52D100CCB30C /* Don't Track Me-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Don't Track Me-Prefix.pch"; sourceTree = "<group>"; };
 		5087D72C135F52D100CCB30C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5087D72F135F52D100CCB30C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		5087D731135F52D100CCB30C /* Don_t_Track_MeAppDelegate.h */ = {isa = PBXFileReference; path = Don_t_Track_MeAppDelegate.h; sourceTree = "<group>"; };
+		5087D731135F52D100CCB30C /* Don_t_Track_MeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Don_t_Track_MeAppDelegate.h; sourceTree = "<group>"; };
 		5087D732135F52D100CCB30C /* Don_t_Track_MeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Don_t_Track_MeAppDelegate.m; sourceTree = "<group>"; };
 		5087D735135F52D100CCB30C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5087D74C135F585900CCB30C /* DataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataHelper.h; sourceTree = "<group>"; };
+		5087D74D135F585900CCB30C /* DataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataHelper.m; sourceTree = "<group>"; };
+		5087D750135F5F7600CCB30C /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		5087D751135F5F7600CCB30C /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		5087D752135F5F7600CCB30C /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		5087D753135F5F7600CCB30C /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		5087D754135F5F7600CCB30C /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		5087D755135F5F7600CCB30C /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		5087D759135F617C00CCB30C /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		5087D773135FAFCE00CCB30C /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5087D75A135F617C00CCB30C /* libsqlite3.0.dylib in Frameworks */,
 				5087D720135F52D100CCB30C /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,6 +80,7 @@
 		5087D71E135F52D100CCB30C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5087D759135F617C00CCB30C /* libsqlite3.0.dylib */,
 				5087D71F135F52D100CCB30C /* Cocoa.framework */,
 				5087D721135F52D100CCB30C /* Other Frameworks */,
 			);
@@ -82,10 +100,13 @@
 		5087D725135F52D100CCB30C /* Don't Track Me */ = {
 			isa = PBXGroup;
 			children = (
+				5087D74F135F5F7600CCB30C /* fmdb */,
 				5087D731135F52D100CCB30C /* Don_t_Track_MeAppDelegate.h */,
 				5087D732135F52D100CCB30C /* Don_t_Track_MeAppDelegate.m */,
 				5087D734135F52D100CCB30C /* MainMenu.xib */,
 				5087D726135F52D100CCB30C /* Supporting Files */,
+				5087D74C135F585900CCB30C /* DataHelper.h */,
+				5087D74D135F585900CCB30C /* DataHelper.m */,
 			);
 			path = "Don't Track Me";
 			sourceTree = "<group>";
@@ -93,6 +114,7 @@
 		5087D726135F52D100CCB30C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5087D773135FAFCE00CCB30C /* Icon.icns */,
 				5087D727135F52D100CCB30C /* Don't Track Me-Info.plist */,
 				5087D728135F52D100CCB30C /* InfoPlist.strings */,
 				5087D72B135F52D100CCB30C /* Don't Track Me-Prefix.pch */,
@@ -100,6 +122,19 @@
 				5087D72E135F52D100CCB30C /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5087D74F135F5F7600CCB30C /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				5087D750135F5F7600CCB30C /* FMDatabase.h */,
+				5087D751135F5F7600CCB30C /* FMDatabase.m */,
+				5087D752135F5F7600CCB30C /* FMDatabaseAdditions.h */,
+				5087D753135F5F7600CCB30C /* FMDatabaseAdditions.m */,
+				5087D754135F5F7600CCB30C /* FMResultSet.h */,
+				5087D755135F5F7600CCB30C /* FMResultSet.m */,
+			);
+			path = fmdb;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +190,7 @@
 				5087D72A135F52D100CCB30C /* InfoPlist.strings in Resources */,
 				5087D730135F52D100CCB30C /* Credits.rtf in Resources */,
 				5087D736135F52D100CCB30C /* MainMenu.xib in Resources */,
+				5087D774135FAFCE00CCB30C /* Icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +203,10 @@
 			files = (
 				5087D72D135F52D100CCB30C /* main.m in Sources */,
 				5087D733135F52D100CCB30C /* Don_t_Track_MeAppDelegate.m in Sources */,
+				5087D74E135F585900CCB30C /* DataHelper.m in Sources */,
+				5087D756135F5F7600CCB30C /* FMDatabase.m in Sources */,
+				5087D757135F5F7600CCB30C /* FMDatabaseAdditions.m in Sources */,
+				5087D758135F5F7600CCB30C /* FMResultSet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +321,7 @@
 				5087D73B135F52D100CCB30C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

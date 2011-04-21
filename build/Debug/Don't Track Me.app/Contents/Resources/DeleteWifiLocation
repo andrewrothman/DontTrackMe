@@ -1,0 +1,1 @@
+UPDATE WifiLocation SET altitude=0, ci=0, confidence=0, course="0", horizontalaccuracy=0, lac=0, latitude="0", longitude="0", mcc=0, mnc=0, speed="0", timestamp="0", verticalaccuracy="0";

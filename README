@@ -1,0 +1,5 @@
+Scrambles location data from syncing an iOS device with iTunes. Based off of iPhoneTracker from http://petewarden.github.com/iPhoneTracker/
+
+THis program scrambles the data that is synced from your iOS device to iTunes. This data may still be on your iOS device.
+
+Use this program at your own risk. I have not tested a restore from any of the backups this program has been tested on. I strongly recommend to backup anything you input into this program to be sure that you will not lose data.
